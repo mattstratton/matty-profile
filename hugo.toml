@@ -1,3 +1,62 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# baseURL = "https://your_domain.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Matty Strattton"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+   name = "Matty Stratton"
+  # headline = "An awesome person"
+   image = "img/matty.png"  # path relative to static directory
+
+  links = [
+     { email = "mailto:matt.stratton@gmail.com" },
+     { bluesky = { href = "https://bsky.app/profile/matty.wtf", text = "BlueSky" } },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+     { dev = "https://dev.to/mattstratton" },
+     { discord = "https://discordapp.com/users/796744138832871465" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+     { github = "https://github.com/mattstratton" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+     { instagram = "https://www.instagram.com/mattstratton/" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+     { linkedin = "https://www.linkedin.com/in/mattstratton/" },
+     { mastodon = "https://hachyderm.io/@mattstratton" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    { signal-messenger = {href = "https://mattstratton.com/signal", text = "Signal" } },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    { threads = {href = "https://www.threads.net/@mattstratton", text = "Threads" } },
+     { tiktok = "https://tiktok.com/@therealmattstratton" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+     { twitter = "https://twitter.com/mattstratton" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
